@@ -1,0 +1,9 @@
+2023-01-05 12:55:52,157 - wrangler - ERROR - Invalid path to file
+2023-01-05 13:02:52,571 - wrangler - ERROR - Invalid path to file
+2023-01-05 13:03:34,775 - wrangler - ERROR - Invalid path to file
+2023-01-05 13:03:55,972 - wrangler - ERROR - Invalid path to file
+2023-01-05 13:05:22,975 - wrangler - ERROR - Invalid path to file
+2023-01-05 13:07:06,290 - wrangler - ERROR - Could not read CSV. Invalid path to file
+2023-01-05 13:08:12,525 - wrangler - WARNING - Some universities' information is missing
+2023-01-05 13:08:12,526 - wrangler - INFO - Successfully written data to file
+2023-01-05 13:08:12,526 - wrangler.wrangler - INFO - Successfully run crawler
