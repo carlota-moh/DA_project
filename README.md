@@ -1,12 +1,20 @@
-# Práctica 10 - Spider, Crawler, Wrangler
+# Proyecto DA - Spider, Crawler, Wrangler
+
+Este es un proyecto de workflow de adquisición de datos, realizado como práctica en un curso de Adquisición de Datos. 
+El objetivo del proyecto es recuperar información de las páginas de Wikipedia de las universidades del mundo. 
+Para ello, el proyecto utiliza tres módulos:
+
++ Spider: Se encarga de recuperar las URLs de la Wikipedia que contienen perfiles de universidades.
++ Crawler: Parsea el contenido HTML de la tarjeta resumen de cada una de las universidades.
++ Wrangler: Se encarga de la limpieza de datos y de realizar ciertas comprobraciones acerca de la información recopilada.
 
 ## Ejecución del script
 
-La práctica se ejecuta desde el directorio raíz usando:
+El proyecto se ejecuta desde el directorio raíz usando:
 
 `python3 main`
 
-Las partes de la práctica se pueden ejecutar por separado,
+Las partes del proyecto se pueden ejecutar por separado,
 aunque debe tenerse en cuenta que son secuenciales. Para ejecutar
 una sección simplemente se debe añadir su nombre como argumento
 en la terminal:
@@ -18,7 +26,7 @@ en la terminal:
 Para ejecutar todas las secciones, emplear:
 `python3 main SPIDER CRAWLER WRANGLER <country_name/>`
 
-## Escalado
+## Notas sobre escalado
 
 Si quisiéramos escalar el proyecto para poder recuperar la información
 de todas las universidades del mundo, en vez de pasar el nombre de un
@@ -31,7 +39,6 @@ cada uno de ellos.
 
 A la hora de escalar el proyecto, es predecible encontrarse con algunos de
 los siguientes problemas:
-
 
 1. Falta de homogeneidad en las páginas que listan las universidades de cada país,
 lo que hace que sea difícil automatizar la recuperación de los links de las 
@@ -48,4 +55,3 @@ con probabes puntos de fallo.
 
 4. Cambios inesperados en la estructura del HTML, lo que puede hacer que la información 
 que podemos recuperar hoy no la podamos recuperar el día de mañana.
-
